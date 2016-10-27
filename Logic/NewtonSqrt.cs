@@ -8,10 +8,12 @@ namespace Logic
 {
     public class NewtonSqrt
     {
-        public static decimal Sqrt(long number, int precision = 1)
+        public static string Sqrt(long number, int precision = 1)
         {
-            int iteration = 0;
-            decimal baseNumber = 1;
+            number = Math.Abs(number);
+
+            var iteration = 0;
+            var baseNumber = 1M;
 
             while (iteration != 30)
             {
@@ -25,15 +27,16 @@ namespace Logic
                 if (baseNumber != local)
                     range = local - baseNumber;
 
-                if (range < 1/precision && iteration > 3)//
+                if (range < (decimal)Math.Pow(10, -1 * precision) && iteration > 3)// We need min 3 iterations for normal result.
                 {
-                    return Math.Round(local,precision);
+                    return Math.Round(local,precision).ToString();// For more accurate testing.
                 }
+
                 iteration++;
                 
             }
            
-            return Math.Round(baseNumber,precision);
+            return Math.Round(baseNumber,precision).ToString();// Here too.
         }
     }
 }
