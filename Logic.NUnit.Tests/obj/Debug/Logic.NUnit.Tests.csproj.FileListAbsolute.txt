@@ -1,0 +1,9 @@
+D:\EPAM\NET.W.2016.01.Bulavsky.04\Logic.NUnit.Tests\bin\Debug\Logic.NUnit.Tests.dll
+D:\EPAM\NET.W.2016.01.Bulavsky.04\Logic.NUnit.Tests\bin\Debug\Logic.NUnit.Tests.pdb
+D:\EPAM\NET.W.2016.01.Bulavsky.04\Logic.NUnit.Tests\bin\Debug\Logic.dll
+D:\EPAM\NET.W.2016.01.Bulavsky.04\Logic.NUnit.Tests\bin\Debug\nunit.framework.dll
+D:\EPAM\NET.W.2016.01.Bulavsky.04\Logic.NUnit.Tests\bin\Debug\Logic.pdb
+D:\EPAM\NET.W.2016.01.Bulavsky.04\Logic.NUnit.Tests\bin\Debug\nunit.framework.xml
+D:\EPAM\NET.W.2016.01.Bulavsky.04\Logic.NUnit.Tests\obj\Debug\Logic.NUnit.Tests.csprojResolveAssemblyReference.cache
+D:\EPAM\NET.W.2016.01.Bulavsky.04\Logic.NUnit.Tests\obj\Debug\Logic.NUnit.Tests.dll
+D:\EPAM\NET.W.2016.01.Bulavsky.04\Logic.NUnit.Tests\obj\Debug\Logic.NUnit.Tests.pdb
