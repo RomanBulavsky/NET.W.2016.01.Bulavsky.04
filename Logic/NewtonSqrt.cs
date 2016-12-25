@@ -23,7 +23,6 @@ namespace Logic
             if (((power%2) == 0) && number < 0)
                 throw new ArgumentException();
 
-            number = Math.Abs(number);
             var currentX = 0.0;
             var nextX = 1.0;
             while (Math.Abs(nextX - currentX) > epsilon)
