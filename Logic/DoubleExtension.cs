@@ -6,25 +6,19 @@ namespace Logic
 {
     public static class DoubleExtension
     {
+        /// <summary>
+        /// Extension method that shows the binary representation of real numbers.
+        /// </summary>
+        /// <param name="number"> Real number that we want to format.</param>
+        /// <returns> Representation of real numbers in IEEE754 format.</returns>
         public static string ShowInIEEE754Format(this double number)
         {
-            double f = number;
-            byte[] b = BitConverter.GetBytes(f);
-           
-            BitArray a = new BitArray(b);
-            
-            char[] baseArray = new char[64];
+            var bitArray = new BitArray(BitConverter.GetBytes(number));
+            var baseArray = Enumerable.Repeat('0', sizeof(double)*8).ToArray();
+            for (var i = 0; i < sizeof(double)*8; i++)
+                if (bitArray[i])
+                    baseArray[sizeof(double)*8 - 1 - i] = '1'; //63 looks better... or 64 - 1
 
-            baseArray = Enumerable.Repeat('0', 64).ToArray();
-            for (int i = 0; i < 64; i++)
-            {
-                if (a[i])
-                {
-                    baseArray[63 - i] = '1';
-                }
-            }
-
-            
             return new string(baseArray);
         }
     }

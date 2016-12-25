@@ -3,3 +3,8 @@ D:\EPAM\NET.W.2016.01.Bulavsky.04\Logic\bin\Debug\Logic.pdb
 D:\EPAM\NET.W.2016.01.Bulavsky.04\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
 D:\EPAM\NET.W.2016.01.Bulavsky.04\Logic\obj\Debug\Logic.dll
 D:\EPAM\NET.W.2016.01.Bulavsky.04\Logic\obj\Debug\Logic.pdb
+C:\Home\EPAM\NET.W.2016.01.Bulavsky.04\Logic\bin\Debug\Logic.dll
+C:\Home\EPAM\NET.W.2016.01.Bulavsky.04\Logic\bin\Debug\Logic.pdb
+C:\Home\EPAM\NET.W.2016.01.Bulavsky.04\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
+C:\Home\EPAM\NET.W.2016.01.Bulavsky.04\Logic\obj\Debug\Logic.dll
+C:\Home\EPAM\NET.W.2016.01.Bulavsky.04\Logic\obj\Debug\Logic.pdb

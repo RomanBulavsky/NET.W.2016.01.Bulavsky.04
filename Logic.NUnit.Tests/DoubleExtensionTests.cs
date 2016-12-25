@@ -17,12 +17,10 @@ namespace Logic.NUnit.Tests
         [TestCase(-5.0,        "1100000000010100000000000000000000000000000000000000000000000000")]
         [TestCase(17.84333123, "0100000000110001110101111110010010001110001101001000101110100011")]
         //                     "0100000000110001110101111110010010001110001101001000101110100011" http://www.binaryconvert.com/result_double.html?decimal=049055046056052051051051049050051
-        public void Sqrt_NumberWithPrecision_ExpectedNumber(double number, string expected)
+        public void ShowInIEEE754Format_DoubleNumber_ExpectedString(double number, string expected)
         {
-            string result = number.ShowInIEEE754Format();
-
+            var result = number.ShowInIEEE754Format();
             Assert.AreEqual(expected, result);
         }
-
     }
 }

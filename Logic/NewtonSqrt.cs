@@ -8,35 +8,30 @@ namespace Logic
 {
     public class NewtonSqrt
     {
-        public static string Sqrt(long number, int precision = 1)
+        /// <summary>
+        /// Method that uses Newton method for finding <paramref name="power"/> degree from <paramref name="number"/>
+        /// </summary>
+        /// <param name="epsilon">Specifies the precision of calculations</param>
+        /// <returns>The number of the extracted root with a given accuracy(<paramref name="epsilon"/>).</returns>
+        public static double NSqrt(double number, int power, double epsilon)
         {
+            if (number.Equals(0)) return 0;
+            if (power < 1)
+                throw new ArgumentException();
+            if (!(epsilon > 0 && epsilon < 1))
+                throw new ArgumentException();
+            if (((power%2) == 0) && number < 0)
+                throw new ArgumentException();
+
             number = Math.Abs(number);
-
-            var iteration = 0;
-            var baseNumber = 1M;
-
-            while (iteration != 30)
+            var currentX = 0.0;
+            var nextX = 1.0;
+            while (Math.Abs(nextX - currentX) > epsilon)
             {
-                decimal local = baseNumber;
-
-                baseNumber = (decimal)0.5 * (baseNumber + number / baseNumber);
-              
-
-                decimal range = 0;
-
-                if (baseNumber != local)
-                    range = local - baseNumber;
-
-                if (range < (decimal)Math.Pow(10, -1 * precision) && iteration > 3)// We need min 3 iterations for normal result.
-                {
-                    return Math.Round(local,precision).ToString();// For more accurate testing.
-                }
-
-                iteration++;
-                
+                currentX = nextX;
+                nextX = 1.0/power*((power - 1)*currentX + number/Math.Pow(currentX, power - 1));
             }
-           
-            return Math.Round(baseNumber,precision).ToString();// Here too.
+            return nextX;
         }
     }
 }

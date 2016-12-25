@@ -7,3 +7,12 @@ D:\EPAM\NET.W.2016.01.Bulavsky.04\Logic.NUnit.Tests\bin\Debug\nunit.framework.xm
 D:\EPAM\NET.W.2016.01.Bulavsky.04\Logic.NUnit.Tests\obj\Debug\Logic.NUnit.Tests.csprojResolveAssemblyReference.cache
 D:\EPAM\NET.W.2016.01.Bulavsky.04\Logic.NUnit.Tests\obj\Debug\Logic.NUnit.Tests.dll
 D:\EPAM\NET.W.2016.01.Bulavsky.04\Logic.NUnit.Tests\obj\Debug\Logic.NUnit.Tests.pdb
+C:\Home\EPAM\NET.W.2016.01.Bulavsky.04\Logic.NUnit.Tests\bin\Debug\Logic.NUnit.Tests.dll
+C:\Home\EPAM\NET.W.2016.01.Bulavsky.04\Logic.NUnit.Tests\bin\Debug\Logic.NUnit.Tests.pdb
+C:\Home\EPAM\NET.W.2016.01.Bulavsky.04\Logic.NUnit.Tests\bin\Debug\Logic.dll
+C:\Home\EPAM\NET.W.2016.01.Bulavsky.04\Logic.NUnit.Tests\bin\Debug\nunit.framework.dll
+C:\Home\EPAM\NET.W.2016.01.Bulavsky.04\Logic.NUnit.Tests\bin\Debug\Logic.pdb
+C:\Home\EPAM\NET.W.2016.01.Bulavsky.04\Logic.NUnit.Tests\bin\Debug\nunit.framework.xml
+C:\Home\EPAM\NET.W.2016.01.Bulavsky.04\Logic.NUnit.Tests\obj\Debug\Logic.NUnit.Tests.csprojResolveAssemblyReference.cache
+C:\Home\EPAM\NET.W.2016.01.Bulavsky.04\Logic.NUnit.Tests\obj\Debug\Logic.NUnit.Tests.dll
+C:\Home\EPAM\NET.W.2016.01.Bulavsky.04\Logic.NUnit.Tests\obj\Debug\Logic.NUnit.Tests.pdb
